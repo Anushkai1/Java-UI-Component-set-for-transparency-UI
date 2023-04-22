@@ -4,7 +4,11 @@
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="1c" green="e" red="6" type="rgb"/>
-
+    </Property>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      
+    </Property>
+  </Properties>
 
 
 </Form>
