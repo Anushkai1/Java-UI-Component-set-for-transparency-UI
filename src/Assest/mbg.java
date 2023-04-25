@@ -8,4 +8,10 @@ package Assest;
  *
  * @author Anushka Isuru
  */
+public class mbg extends javax.swing.JPanel {
 
+
+
+
+
+}
