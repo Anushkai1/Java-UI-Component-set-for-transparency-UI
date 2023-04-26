@@ -26,6 +26,9 @@ public class mbg extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        setBackground(new java.awt.Color(6, 14, 28));
+        setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 145, 196)));
 
+        
     }
 }
