@@ -29,6 +29,8 @@ public class mbg extends javax.swing.JPanel {
         setBackground(new java.awt.Color(6, 14, 28));
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 145, 196)));
 
-        
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+       
     }
 }
