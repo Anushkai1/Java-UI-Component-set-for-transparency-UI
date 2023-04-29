@@ -25,7 +25,13 @@ public class Regex {
             textFld.setLn(textFld.activeC);
             textFld.repaint(); 
         }
-
+        else{
+           textFld.setVldInput(false);
+           textFld.setBackground(textFld.errorC);
+           textFld.setLn(skin.rc1);
+           textFld.repaint();
+        }
+        
 
     }
 
