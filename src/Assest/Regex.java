@@ -11,7 +11,9 @@ public class Regex {
         TxFld1 textFld = (TxFld1) evt.getSource();
         String st = textFld.getText();
         int intg = -2;
-
+        try{
+            intg = Integer.parseInt(st);
+        }catch(Exception e){}
 
 
 
