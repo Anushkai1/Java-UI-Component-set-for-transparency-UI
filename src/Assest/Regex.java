@@ -14,7 +14,17 @@ public class Regex {
         try{
             intg = Integer.parseInt(st);
         }catch(Exception e){}
-
+        if(intg!=-2 && 110000000<intg && intg < 800000000){
+            textFld.setVldInput(true);
+            textFld.setBackground(textFld.bg);
+            textFld.setLn(textFld.activeC);
+            textFld.repaint();       
+        }else if((st=="") && (textFld.getRequired()==false)){
+            textFld.setVldInput(true);
+            textFld.setBackground(textFld.bg);
+            textFld.setLn(textFld.activeC);
+            textFld.repaint(); 
+        }
 
 
     }
