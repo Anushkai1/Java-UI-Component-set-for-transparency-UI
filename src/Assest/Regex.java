@@ -32,7 +32,9 @@ public class Regex {
            textFld.repaint();
         }
         
-
+        subBtn y = textFld.getSb1();
+        
+        subBtn.isReady();
     }
 
     
