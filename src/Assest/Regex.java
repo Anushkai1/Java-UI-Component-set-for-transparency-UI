@@ -46,7 +46,9 @@ public class Regex {
         TxFld1 textFld = (TxFld1) evt.getSource();
        //only add charater ...Not allowed Digit code 
        
+        char c = evt.getKeyChar();
 
+        
     }
     
 
