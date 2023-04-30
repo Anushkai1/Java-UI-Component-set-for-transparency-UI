@@ -41,7 +41,12 @@ public class Regex {
     @SuppressWarnings("empty-statement")
     
     
+    public static boolean isName(java.awt.event.KeyEvent evt) {
+        
+ 
 
+    }
+    
 
     
 }
