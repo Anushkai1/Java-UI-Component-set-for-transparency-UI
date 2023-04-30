@@ -65,7 +65,11 @@ public class Regex {
     }
     
     public static boolean rxTxt(java.awt.event.KeyEvent evt) {
-
+        char c = evt.getKeyChar();
+        if (!(Character.isDigit(c) || (c == KeyEvent.VK_BACK_SPACE) || c == KeyEvent.VK_DELETE)) {
+            evt.consume();            
+        }
+        
 
     }
     
