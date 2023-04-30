@@ -64,6 +64,10 @@ public class Regex {
         
     }
     
+    public static boolean rxTxt(java.awt.event.KeyEvent evt) {
 
+
+    }
+    
     
 }
