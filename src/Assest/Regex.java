@@ -43,7 +43,9 @@ public class Regex {
     
     public static boolean isName(java.awt.event.KeyEvent evt) {
         
- 
+        TxFld1 textFld = (TxFld1) evt.getSource();
+       //only add charater ...Not allowed Digit code 
+       
 
     }
     
