@@ -47,7 +47,20 @@ public class Regex {
        //only add charater ...Not allowed Digit code 
        
         char c = evt.getKeyChar();
-
+        if (Character.isLetter(c) || Character.isWhitespace(c) || Character.isISOControl(c)|| c=='.' ){
+           
+        
+             textFld.setEditable(true);
+             
+             
+        } else {
+           
+            textFld.setEditable(false);
+             
+        }
+       
+        
+        return true;
         
     }
     
