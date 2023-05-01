@@ -70,6 +70,10 @@ public class Regex {
             evt.consume();            
         }
         
+        TxFld1 textFld = (TxFld1) evt.getSource();
+        boolean rtn;        
+        String txt = textFld.getText();
+        
 
     }
     
