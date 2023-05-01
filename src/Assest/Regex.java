@@ -74,7 +74,14 @@ public class Regex {
         boolean rtn;        
         String txt = textFld.getText();
         
-
+        if (txt.length() == 8) {
+            textFld.setBackground(Color.WHITE);
+            rtn = true;
+        } else {
+            textFld.setBackground(Color.red);
+            rtn = false;
+        }        
+        return rtn;
     }
     
     
