@@ -6,3 +6,10 @@ import java.awt.Font;
 import java.io.InputStream;
 
 
+public class skin {
+    
+
+    
+
+
+}
