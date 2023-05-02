@@ -22,6 +22,11 @@ public class skin {
         
     }
     
+    //Blue Color Range
+    public static Color bc1 = new Color(0, 127, 240);
+    public static Color bc2 = new Color(0, 112, 192);
+    public static Color bc3 = new Color(0, 112, 192,10);
+    
 
 
 }
