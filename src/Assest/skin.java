@@ -33,6 +33,10 @@ public class skin {
     
     public static Color bc7 = new Color(0, 65, 88);
     
+    public static Color bc8 = new Color(6, 14, 88,255);
+    public static Color bc9 = new Color(6, 14, 88, 160);
+    public static Color bc10 = new Color(6, 14, 88, 50);
+    
 
 
 }
