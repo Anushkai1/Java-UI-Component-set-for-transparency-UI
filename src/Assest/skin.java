@@ -40,6 +40,8 @@ public class skin {
     //Black Color Range
     public static Color blc1 = new Color(0,0,0);
     public static Color blc12 = new Color(0,0,0,200);
+    public static Color blc13 = new Color(0,0,0,150);
+    public static Color blc14 = new Color(0,0,0,100);
 
 
 }
