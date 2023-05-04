@@ -37,6 +37,9 @@ public class skin {
     public static Color bc9 = new Color(6, 14, 88, 160);
     public static Color bc10 = new Color(6, 14, 88, 50);
     
+    //Black Color Range
+    public static Color blc1 = new Color(0,0,0);
+    public static Color blc12 = new Color(0,0,0,200);
 
 
 }
