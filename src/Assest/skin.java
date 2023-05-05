@@ -57,5 +57,10 @@ public class skin {
     public static Color wc4 = new Color(127,127,127);
    public static Color wc42 = new Color(90,80,90);
    
+    public static Color wc5 = new Color(127,127,150,70);
+    public static Color wc6 = new Color(127,127,127,50);
+    public static Color wc7 = new Color(127,127,175,40);
+
+
 
 }
