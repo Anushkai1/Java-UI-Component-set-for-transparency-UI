@@ -63,7 +63,9 @@ public class skin {
     public static Color wc8 = new Color(90,90,90,40);
     public static Color wc9 =new Color(59,59,80);
     
-
+     public static Color rc1 = new Color(201,52,85);
+    public static Color rc5 = new Color(30,2,10);
+    
 
 
 }
