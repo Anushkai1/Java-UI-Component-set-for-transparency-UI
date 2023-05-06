@@ -66,6 +66,9 @@ public class skin {
      public static Color rc1 = new Color(201,52,85);
     public static Color rc5 = new Color(30,2,10);
     
-
+    public static Color trdc1 = new Color(201,52,85,50);
+    public static Color trdc2 = new Color(201,52,85,30);
+    public static Color trdc3 = new Color(201,52,85,10);
+    
 
 }
