@@ -44,7 +44,11 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
         return new ScrollBarButton();
     }
 
+    @Override
+    protected void paintTrack(Graphics grphcs, JComponent jc, Rectangle rctngl) {
 
+      
+    }
 
 
 
