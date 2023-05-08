@@ -54,7 +54,19 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
         int y;
         int width;
         int height;
-
+        if (orientation == JScrollBar.VERTICAL) {
+            size = rctngl.width / 2;
+            x = rctngl.x + ((rctngl.width - size) / 2);
+            y = rctngl.y;
+            width = size;
+            height = rctngl.height;
+        } else {
+            size = rctngl.height / 2;
+            y = rctngl.y + ((rctngl.height - size) / 2);
+            x = 0;
+            width = rctngl.width;
+            height = size;
+        }
       
     }
 
