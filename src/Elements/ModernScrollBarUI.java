@@ -25,6 +25,15 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
         }
     }
 
+    @Override
+    protected Dimension getMinimumThumbSize() {
+        if (scrollbar.getOrientation() == JScrollBar.VERTICAL) {
+            return new Dimension(0, THUMB_SIZE);
+        } else {
+            return new Dimension(THUMB_SIZE, 0);
+        }
+    }
+
 
 
 
