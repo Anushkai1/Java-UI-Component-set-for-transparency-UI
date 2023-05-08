@@ -46,6 +46,14 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
 
     @Override
     protected void paintTrack(Graphics grphcs, JComponent jc, Rectangle rctngl) {
+        Graphics2D g2 = (Graphics2D) grphcs;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        int orientation = scrollbar.getOrientation();
+        int size;
+        int x;
+        int y;
+        int width;
+        int height;
 
       
     }
