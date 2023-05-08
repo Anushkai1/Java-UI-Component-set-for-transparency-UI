@@ -39,6 +39,11 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
         return new ScrollBarButton();
     }
 
+    @Override
+    protected JButton createDecreaseButton(int i) {
+        return new ScrollBarButton();
+    }
+
 
 
 
