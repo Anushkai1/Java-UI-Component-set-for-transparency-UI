@@ -71,7 +71,17 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
         g2.fillRect(x, y, width, height);
     }
 
+    @Override
+    protected void paintThumb(Graphics grphcs, JComponent jc, Rectangle rctngl) {
+        Graphics2D g2 = (Graphics2D) grphcs;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        int x = rctngl.x;
+        int y = rctngl.y;
+        int width = rctngl.width;
+        int height = rctngl.height;
 
+
+    }
 
 
 }
