@@ -90,5 +90,8 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
         g2.fillRect(x, y, width, height);
     }
 
+    private class ScrollBarButton extends JButton {
 
+
+    }
 }
