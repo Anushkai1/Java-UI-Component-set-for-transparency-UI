@@ -92,6 +92,12 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
 
     private class ScrollBarButton extends JButton {
 
+        public ScrollBarButton() {
+            setBorder(BorderFactory.createEmptyBorder());
+        }
 
+        @Override
+        public void paint(Graphics grphcs) {
+        }
     }
 }
