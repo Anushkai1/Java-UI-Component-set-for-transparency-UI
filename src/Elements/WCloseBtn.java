@@ -30,5 +30,9 @@ public class WCloseBtn extends javax.swing.JPanel {
         add(iBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
+    private void iBtn2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iBtn2MouseClicked
+        System.exit(0);
+    }//GEN-LAST:event_iBtn2MouseClicked
+
 
 }
