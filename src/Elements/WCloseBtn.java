@@ -35,4 +35,7 @@ public class WCloseBtn extends javax.swing.JPanel {
     }//GEN-LAST:event_iBtn2MouseClicked
 
 
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private Swing.iBtn iBtn2;
+    // End of variables declaration//GEN-END:variables
 }
