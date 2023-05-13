@@ -27,6 +27,11 @@
   </Layout>
   <SubComponents>
     <Component class="Swing.iBtn" name="iBtn2">
+      <Properties>
+        
+      
+      
+      </Properties>
 
 
     </Component>
