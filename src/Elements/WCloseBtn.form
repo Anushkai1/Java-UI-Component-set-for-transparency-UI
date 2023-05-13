@@ -31,7 +31,9 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/img/close.png"/>
         </Property>
-      
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[5, 5, 5, 5]"/>
+        </Property>
       
       </Properties>
 
