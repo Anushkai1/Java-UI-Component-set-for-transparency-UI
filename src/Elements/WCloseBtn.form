@@ -38,7 +38,9 @@
           <Dimension value="[53, 30]"/>
         </Property>
       </Properties>
-
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="iBtn2MouseClicked"/>
+      </Events>
 
     </Component>
   </SubComponents>
