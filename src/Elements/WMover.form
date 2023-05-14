@@ -24,7 +24,9 @@
           <Image iconType="3" name="/img/window_mover.png"/>
         </Property>
         <Property name="focusPainted" type="boolean" value="false"/>
-        
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[53, 30]"/>
+        </Property>
       </Properties>
     
     </Component>
