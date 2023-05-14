@@ -19,7 +19,9 @@
   </Layout>
   <SubComponents>
     <Component class="Swing.iBtn" name="iBtn3">
+      <Properties>
 
+      </Properties>
     
     </Component>
   </SubComponents>
