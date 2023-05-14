@@ -18,6 +18,9 @@
     <Property name="useNullLayout" type="boolean" value="false"/>
   </Layout>
   <SubComponents>
+    <Component class="Swing.iBtn" name="iBtn3">
 
+    
+    </Component>
   </SubComponents>
 </Form>
