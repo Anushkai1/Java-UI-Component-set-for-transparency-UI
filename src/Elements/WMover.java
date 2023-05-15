@@ -29,7 +29,10 @@ public class WMover extends javax.swing.JPanel {
 
         });
         iBtn3.addMouseMotionListener(new MouseMotionAdapter() {
-        
+            @Override
+            public void mouseDragged(MouseEvent me) {
+                fram.setLocation(me.getXOnScreen() -  xMouse, me.getYOnScreen() -  yMouse);
+            }
         });
     }   
     
