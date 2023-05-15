@@ -28,7 +28,9 @@ public class WMover extends javax.swing.JPanel {
             }
 
         });
-
+        iBtn3.addMouseMotionListener(new MouseMotionAdapter() {
+        
+        });
     }   
     
 
