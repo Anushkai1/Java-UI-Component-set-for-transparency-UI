@@ -16,7 +16,13 @@ public class WMover extends javax.swing.JPanel {
         setRequestFocusEnabled(false);
     }
 
+    private int xMouse;
+    private int yMouse;
 
+    public void initMoving(JFrame fram) {
+
+    }   
+    
 
 
 }
