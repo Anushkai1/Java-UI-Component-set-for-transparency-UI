@@ -20,6 +20,14 @@ public class WMover extends javax.swing.JPanel {
     private int yMouse;
 
     public void initMoving(JFrame fram) {
+        iBtn3.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent me) {
+                 xMouse = me.getX();
+                 yMouse = me.getY();
+            }
+
+        });
 
     }   
     
