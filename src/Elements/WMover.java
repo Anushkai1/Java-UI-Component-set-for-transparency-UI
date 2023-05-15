@@ -44,7 +44,10 @@ public class WMover extends javax.swing.JPanel {
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        
+        iBtn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/window_mover.png"))); // NOI18N
+        iBtn3.setFocusPainted(false);
+        iBtn3.setPreferredSize(new java.awt.Dimension(53, 30));
+        add(iBtn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
 
