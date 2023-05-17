@@ -93,7 +93,20 @@ public class Btn2_ extends JButton{
                 }
             }
             
-
+            @Override
+            public void mouseEntered(MouseEvent e){
+                if(isEnabled()){
+                    setBackground(hover_bg);
+                    setForeground(hover_fg);
+                    over = true;
+                }
+            }
+            @Override
+            public void mouseExited(MouseEvent e){
+                setBackground(bg);
+                setForeground(fg);
+                over = false;
+            }
         
         });    
     }
