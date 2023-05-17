@@ -73,7 +73,29 @@ public class Btn2_ extends JButton{
         setContentAreaFilled(false);
                 setBorderPainted(false);
         setRequestFocusEnabled(false);
-   
+        //mouse evet
+        addMouseListener(new MouseAdapter(){
+            @Override
+            public void mousePressed(MouseEvent e){
+                if(isEnabled()){
+                    setBackground(active_bg);
+                    setForeground(active_fg);
+                }
+            }
+            
+            @Override
+            public  void mouseReleased(MouseEvent e){
+                setBackground(bg);
+                setForeground(fg);
+                if(over && isEnabled()){
+                    setBackground(hover_bg);
+                    setForeground(hover_fg);
+                }
+            }
+            
+
+        
+        });    
     }
 
     private boolean over;
