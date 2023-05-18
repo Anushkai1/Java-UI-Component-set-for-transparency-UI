@@ -120,5 +120,15 @@ public class Btn3_ extends JButton{
     private Color active_fg;
     
 
-
+    @Override
+    protected void paintComponent(Graphics grphcs){
+        Graphics2D g2 = (Graphics2D) grphcs;
+       g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+       g2.setColor(Assest.skin.bc4);
+       g2.fillRoundRect(0, 0, getWidth(), getHeight(), 0, 0);
+       g2.setColor(getBackground());
+       g2.fillRoundRect(1, 1, getWidth() - 2, getHeight() - 2, 0, 0);
+        
+        super.paintComponent(grphcs);
+    }
 }
