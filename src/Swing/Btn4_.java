@@ -14,6 +14,13 @@ import java.awt.Dimension;
 public class Btn4_ extends JButton{
 
 
+    private boolean over;
+    private Color bg;
+    private Color fg;
+    private Color hover_bg;
+    private Color active_bg;
+    private Color hover_fg;
+    private Color active_fg;
     
 
 
