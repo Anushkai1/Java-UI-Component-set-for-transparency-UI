@@ -57,6 +57,24 @@ public class Btn4_ extends JButton{
         this.active_fg = active_fg;
     }
 
+    public Btn4_() {
+       this.setFont(skin.ttf(16, 1));
+       
+        fg = hover_fg = skin.wc2;
+       setFg(fg);
+        active_fg =  skin.wc2;
+        
+        bg = skin.blc4;
+        setBg(bg);
+        hover_bg = skin.blc3;
+        active_bg = skin.blc2;
+        setPreferredSize(new Dimension(130, 35));
+        setMargin(new java.awt.Insets(2, 4, 2, 4));
+        setContentAreaFilled(false);
+                setBorderPainted(false);
+        setRequestFocusEnabled(false);
+  
+    }
 
     private boolean over;
     private Color bg;
