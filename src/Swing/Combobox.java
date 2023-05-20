@@ -76,4 +76,30 @@ public class Combobox<E> extends JComboBox<E> {
     private subBtn  sb1;
     private subBtn  sb2;
 
+    public Combobox() {
+        setForeground(skin.wc2);
+        setFont(skin.ttf(15,1));
+        setMaximumRowCount(5);
+        //UIManager.put("ComboBox.background", new ColorUIResource(skin.wc1));
+        UIManager.put("ComboBox.selectionBackground", new ColorUIResource(skin.bc3));
+        UIManager.put("ComboBox.selectionForeground", new ColorUIResource(skin.wc2));
+        setBackground(skin.trc1);
+        setPreferredSize(new Dimension(150,35));
+        setBorder(new EmptyBorder(5, 3, 5, 3));
+        setUI(new ComboUI(this));
+        setRenderer(new DefaultListCellRenderer() {
+            @Override
+            public Component getListCellRendererComponent(JList<?> jlist, Object o, int i, boolean bln, boolean bln1) {
+                Component com = super.getListCellRendererComponent(jlist, o, i, bln, bln1);
+                setBorder(new EmptyBorder(5, 5, 5, 5));
+                com.setBackground(skin.blc3);
+                com.setForeground(skin.wc3);
+                if (bln) {
+                    com.setBackground(skin.bc7);//mouseover Item Bg
+                    com.setForeground(skin.wc1);
+                }
+                return com;
+            }
+        });
+    }
 
