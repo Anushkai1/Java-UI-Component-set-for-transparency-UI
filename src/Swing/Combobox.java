@@ -38,7 +38,36 @@ import java.awt.Dimension;
 
 public class Combobox<E> extends JComboBox<E> {
 
-
+    public String getLabeText() {
+        return labeText;
+    }
+    public void setLabeText(String labeText) {
+        this.labeText = labeText;
+    }
+    public Color getLineColor() {
+        return lineColor;
+    }
+    public void setLineColor(Color lineColor) {
+        this.lineColor = lineColor;
+    }
+        public Boolean getVldInput() {
+        return vldInput;
+    }
+    public void setVldInput(Boolean vldInput) {
+        this.vldInput = vldInput;
+    }
+    public subBtn getSb1() {
+        return sb1;
+    }
+    public void setSb1(subBtn sb1) {
+        this.sb1 = sb1;
+    }
+    public subBtn getSb2() {
+        return sb2;
+    }
+    public void setSb2(subBtn sb2) {
+        this.sb2 = sb2;
+    }
     
     private String labeText = "SELECT";
     private Color lineColor = skin.wc3;
