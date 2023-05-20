@@ -261,6 +261,15 @@ public class Combobox<E> extends JComboBox<E> {
             }
         }
 
+        private class ArrowButton extends JButton {
 
+            public ArrowButton() {
+                setContentAreaFilled(false);
+                setBorder(new EmptyBorder(0, 5,0, 5));
+                setBackground(skin.bc4);
+            }
+
+
+        }
     }
 }
