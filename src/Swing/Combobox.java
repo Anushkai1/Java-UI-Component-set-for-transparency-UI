@@ -124,7 +124,34 @@ public class Combobox<E> extends JComboBox<E> {
                     mouseOver = false;
                     repaint();
                 }
+            });/*
+            
+            addFocusListener(new FocusAdapter() {
+                @Override
+                public void focusGained(FocusEvent fe) {
+                    showing(false);
+                }
+
+                @Override
+                public void focusLost(FocusEvent fe) {
+                    showing(true);
+                }
             });
+            
+            addItemListener(new ItemListener() {
+                @Override
+                public void itemStateChanged(ItemEvent ie) {
+                    
+                        if (getSelectedIndex() == -1) {
+                            showing(false);
+                        } else {
+                            showing(true);
+                        }
+                    
+                }
+            });
+         */   
+
 
 
 
