@@ -181,7 +181,24 @@ public class Combobox<E> extends JComboBox<E> {
             return new ArrowButton();
         }
 
-
+        @Override
+        protected ComboPopup createPopup() {
+            BasicComboPopup pop = new BasicComboPopup(comboBox) {
+                @Override
+                protected JScrollPane createScroller() {
+                    list.setFixedCellHeight(34);
+                    JScrollPane scroll = new JScrollPane(list);
+                    scroll.setBackground(skin.bc10);
+                    ScrollBarCustome sb = new ScrollBarCustome();
+                    sb.setUnitIncrement(34);
+                    sb.setForeground(skin.bc4);
+                    scroll.setVerticalScrollBar(sb);
+                    return scroll;
+                }
+            };
+            pop.setBorder(new LineBorder(skin.wc3, 1));// opend bg 
+            return pop;
+        }
 
 
 
