@@ -103,3 +103,12 @@ public class Combobox<E> extends JComboBox<E> {
         });
     }
 
+    private class ComboUI extends BasicComboBoxUI {
+
+        private boolean animateHinText = true;
+        private float location;
+        private boolean show;
+        private Combobox combo;
+
+
+}
