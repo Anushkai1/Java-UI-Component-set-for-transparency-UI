@@ -151,6 +151,25 @@ public class Combobox<E> extends JComboBox<E> {
                 }
             });
          */   
+            addPopupMenuListener(new PopupMenuListener() {
+                @Override
+                public void popupMenuWillBecomeVisible(PopupMenuEvent pme) {
+                    arrowButton.setBackground(skin.wc3); 
+                    
+                }
+                @Override
+                public void popupMenuWillBecomeInvisible(PopupMenuEvent pme) {
+                    arrowButton.setBackground(skin.bc4);System.out.println(getSelectedIndex());
+                    if(sb1!=null){sb1.isReady();}
+                    if(sb2!=null){sb2.isReady();}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                }
+                @Override
+                public void popupMenuCanceled(PopupMenuEvent pme) {
+                    arrowButton.setBackground(skin.bc3);
+                    
+                }
+            });
+        }
 
 
 
