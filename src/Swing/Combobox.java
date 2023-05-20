@@ -110,5 +110,26 @@ public class Combobox<E> extends JComboBox<E> {
         private boolean show;
         private Combobox combo;
 
+        public ComboUI(Combobox combo) {
+            this.combo = combo;
+            addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseEntered(MouseEvent me) {
+                    mouseOver = true;
+                    repaint();
+                }
 
+                @Override
+                public void mouseExited(MouseEvent me) {
+                    mouseOver = false;
+                    repaint();
+                }
+            });
+
+
+
+
+
+
+    }
 }
