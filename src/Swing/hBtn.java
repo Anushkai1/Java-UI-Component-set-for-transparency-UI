@@ -62,7 +62,26 @@ public class hBtn extends JButton{
     public void setborder(Color border) {
         this.active_fg = border;
     }
+    public hBtn() {
+       this.setFont(skin.ttf(13, 1));
+       
+        fg =  skin.wc3;
+       setFg(fg);
+       active_fg =skin.wc1;
+       hover_fg = skin.wc2;
+       bg = skin.wc8;//blc6
+       setBg(bg);
+        hover_bg = skin.wc6;
+        active_bg = skin.wc5;
+        
+        setPreferredSize(new Dimension(110, 30));
+        setMargin(new java.awt.Insets(2, 4, 2, 4));
+        setContentAreaFilled(false);
+        setBorderPainted(false);
+        setRequestFocusEnabled(false);
 
+        
+    }
 
     private boolean over;
     private Color bg;
