@@ -79,7 +79,33 @@ public class hBtn extends JButton{
         setContentAreaFilled(false);
         setBorderPainted(false);
         setRequestFocusEnabled(false);
-
+        //mouse evet
+        
+        addMouseListener(new MouseAdapter(){
+           
+             
+            @Override
+            public void  mouseClicked(MouseEvent e){
+                setBackground(active_bg);
+                setForeground(active_fg);
+                over = true;
+            }                  
+            @Override
+            public void mouseEntered(MouseEvent e){
+                if(!over) {
+                    setBackground(hover_bg);
+                    setForeground(hover_fg);
+                }
+            }
+            @Override
+            public void mouseExited(MouseEvent e){
+                if(!over) {
+                setBackground(bg);
+                setForeground(fg);
+                }
+            }
+        
+        });
         
     }
 
