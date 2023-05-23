@@ -119,4 +119,21 @@ public class hBtn extends JButton{
     private Color border;
     
 
+    @Override
+    protected void paintComponent(Graphics grphcs){
+        Graphics2D g2 = (Graphics2D) grphcs;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+
+        g2.setColor(getBackground());
+        g2.fillRoundRect(0, 0, getWidth(), getHeight(), 0, 0);
+        
+         g2.setColor(getBg());
+        if(getBackground()==getActive_bg()){
+            g2.setColor(Assest.skin.bc1);
+        }
+        
+        g2.fillRoundRect(getWidth() / 2 - 25,27, 50, 3, 0, 0);
+                
+        super.paintComponent(grphcs);
+    }
 }
