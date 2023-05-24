@@ -57,6 +57,25 @@ public class iBtn extends JButton{
         this.active_fg = active_fg;
     }
 
+    public iBtn() {
+       this.setFont(skin.ttf(14, 1));
+       
+        fg =  active_fg = hover_fg = skin.wc3;
+       setFg(fg);
+       
+        
+        bg = skin.wc7;
+        setBg(bg);
+        hover_bg = skin.wc5;
+        active_bg = skin.bc6;
+        
+        setPreferredSize(new Dimension(52, 30));
+        setMargin(new java.awt.Insets(0, 0, 0,0));
+        setContentAreaFilled(false);
+                setBorderPainted(false);
+        setRequestFocusEnabled(false);
+
+    }
 
     private boolean over;
     private Color bg;
