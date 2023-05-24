@@ -35,6 +35,27 @@ public class iBtn extends JButton{
     public Color getHover_bg() {
         return hover_bg;
     }
+    public void setHover_bg(Color hover_bg) {
+        this.hover_bg = hover_bg;
+    }
+    public Color getActive_bg() {
+        return active_bg;
+    }
+    public void setActive_bg(Color active_bg) {
+        this.active_bg = active_bg;
+    }
+    public Color getHover_fg() {
+        return hover_fg;
+    }
+    public void setHover_fg(Color hover_fg) {
+        this.hover_fg = hover_fg;
+    }
+    public Color getActive_fg() {
+        return active_fg;
+    }
+    public void setActive_fg(Color active_fg) {
+        this.active_fg = active_fg;
+    }
 
 
     private boolean over;
