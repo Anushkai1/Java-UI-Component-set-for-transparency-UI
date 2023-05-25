@@ -12,7 +12,19 @@ public class subBtn extends Btn2_{
         this.txtList = txtList;
     }
    
-
+    public static void isReady(){
+       int i, len ;
+       len =  txtList.length;
+       TxFld1  x;
+       int validItemCount = 0;
+        
+      for(i=0; (i<len && 0 < len); i++){
+            x = txtList[i];
+            if(x.getVldInput()){validItemCount++;}
+       }
+        
+       if(validItemCount==len){System.out.println("Swing.subBtn.isReady()");}
+    }
     
   
     public static TxFld1[] txtList;
