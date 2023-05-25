@@ -26,6 +26,11 @@ public class subBtn extends Btn2_{
        if(validItemCount==len){System.out.println("Swing.subBtn.isReady()");}
     }
     
-  
+     public static void isReady1(){
+         
+         TxFld1 y = txtList[0];
+         y.setBackground(Color.red);
+         System.out.println(y.getVldInput());
+    }   
     public static TxFld1[] txtList;
 }
