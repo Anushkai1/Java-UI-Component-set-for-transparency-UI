@@ -4,6 +4,14 @@ import java.awt.Color;
 
 public class subBtn extends Btn2_{
 
+    public subBtn(){}
+    public TxFld1[] getTxtList() {
+        return txtList;
+    }
+    public void setTxtList(TxFld1[] txtList) {
+        this.txtList = txtList;
+    }
+   
 
     
   
