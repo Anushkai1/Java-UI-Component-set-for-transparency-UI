@@ -13,6 +13,55 @@ import java.awt.Dimension;
 
 public class subBtn1_ extends JButton{
 
+    public TxFld1[] getTxtList() {
+        return txtList;
+    }
+    public void setTxtList(TxFld1[] txtList) {
+        this.txtList = txtList;
+    }
+    public boolean isOver() {
+        return over;
+    }
+    public void setOver(boolean over) {
+        this.over = over;
+    }
+    public Color getBg() {
+        return bg;
+    }
+    public void setBg(Color bg) {
+        setBackground(bg);
+    }
+    public Color getFg() {
+        return fg;
+    }
+    public void setFg(Color fg) {
+        setForeground(fg);
+    }
+    public Color getHover_bg() {
+        return hover_bg;
+    }
+    public void setHover_bg(Color hover_bg) {
+        this.hover_bg = hover_bg;
+    }
+    public Color getActive_bg() {
+        return active_bg;
+    }
+    public void setActive_bg(Color active_bg) {
+        this.active_bg = active_bg;
+    }
+    public Color getHover_fg() {
+        return hover_fg;
+    }
+    public void setHover_fg(Color hover_fg) {
+        this.hover_fg = hover_fg;
+    }
+    public Color getActive_fg() {
+        return active_fg;
+    }
+    public void setActive_fg(Color active_fg) {
+        this.active_fg = active_fg;
+    }
+
 
 
 
