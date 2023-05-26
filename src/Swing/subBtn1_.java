@@ -115,7 +115,18 @@ public class subBtn1_ extends JButton{
         
         });    
     }
-
+    public  void isReady(){
+        int i, len = 5;
+       TxFld1 x;
+       int validItemCount = 0;
+        
+       for(i=0; (i<len && 0 < len); i++){
+            x = txtList[i];
+            if(x.getVldInput()){validItemCount++;}
+       }
+        
+       if(validItemCount==len){System.out.println("Swing.subBtn.isReady()");}
+    }
     private boolean over;
     private Color bg;
     private Color fg;
