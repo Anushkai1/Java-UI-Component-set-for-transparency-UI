@@ -7,3 +7,6 @@ import java.awt.Insets;
 import javax.swing.BorderFactory;
 import javax.swing.JTextArea;
 
+public class txArea extends JTextArea{
+ 
+}
