@@ -36,6 +36,19 @@
         </Constraint>
       </Constraints>
     </Component>
-
+    <Component class="Swing.TxFld1" name="txFld12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="txFld12"/>
+        <Property name="maxLength" type="int" value="9"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txFld12KeyReleased"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="25" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
   </SubComponents>
 </Form>
