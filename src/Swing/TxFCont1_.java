@@ -6,6 +6,15 @@ import java.awt.event.KeyEvent;
 import Assest.Regex;
 public class TxFCont1_ extends javax.swing.JPanel {
 
+    public TxFCont1_() {
+        initComponents();
+        setOpaque(false);
+        jLabel1.setFont(skin.ttf(13,1));
+        jLabel1.setForeground(skin.wc3);
+        setBackground(skin.wc8);
+    }
+    
+
 
 
 
