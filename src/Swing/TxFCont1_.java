@@ -39,6 +39,9 @@ public class TxFCont1_ extends javax.swing.JPanel {
         add(txFld12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 25, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
+    private void txFld12KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txFld12KeyReleased
+            Regex.rxPhone(evt);
+    }//GEN-LAST:event_txFld12KeyReleased
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
