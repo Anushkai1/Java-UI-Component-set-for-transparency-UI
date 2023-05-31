@@ -165,7 +165,17 @@ public class TxFld1 extends JTextField{
     private int maxLength;
     private String oldVal = "";
 
-
+    @Override
+    protected void paintComponent(Graphics g) {
+        Graphics2D g2= (Graphics2D) g;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        g2.setColor(getBackground());
+        g2.fillRect(0,0, getWidth(),getHeight()-10);
+        g2.setColor(getLn());
+       g2.fillRect(0, getHeight() - 2, getWidth(), 1);
+        super.paintComponent(g);
+    }
+    
     
 
     
