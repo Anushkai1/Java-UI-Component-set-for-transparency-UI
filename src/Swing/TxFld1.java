@@ -119,7 +119,36 @@ public class TxFld1 extends JTextField{
             setBackground(bg);
             vldInput = false;
             
-
+        addFocusListener(new FocusAdapter(){
+            @Override
+            public void focusGained(FocusEvent e){
+                if(isFocusable()){
+                    if(getText()!=""){setLn(activeC);}
+                    else if(!getVldInput()){setLn(errorC);}
+                    //setLn(activeC); 
+                    repaint();
+                }
+            }
+            
+            @Override
+            public void focusLost(FocusEvent e){
+                if(getVldInput()){
+                    if(getText()!=""){setLn(emptyC);}
+                    else{setLn(bg);}
+                    repaint();
+                }               
+            }        
+        });
+    
+        addKeyListener(new KeyAdapter(){
+            public void keyTyped(KeyEvent e){
+                TxFld1 textFld = (TxFld1) e.getSource();
+                String st = textFld.getText();
+                if((getMaxLength()>0) && (st.length() > getMaxLength() - 1)){
+                    e.consume();
+                }
+            }
+        });
         
     }
 
