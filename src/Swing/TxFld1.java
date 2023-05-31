@@ -22,3 +22,25 @@ import java.awt.event.MouseEvent;
 import javax.swing.BorderFactory;
 import  Assest.Regex;
 
+public class TxFld1 extends JTextField{
+
+
+
+    private Boolean vldInput;
+    private Boolean Required = false;
+    private subBtn  sb1;
+    private subBtn  sb2;
+    private Color hoverC;
+    public Color activeC;
+    public Color errorC;
+    public Color emptyC;
+    private Color ln;
+    public Color bg;
+    private int maxLength;
+    private String oldVal = "";
+
+
+    
+
+    
+}
