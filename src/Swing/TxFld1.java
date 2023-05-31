@@ -102,7 +102,26 @@ public class TxFld1 extends JTextField{
         this.sb2 = sb2;
     }
     
+    public TxFld1(){
+        setOpaque(false);
+            setFont(skin.ttf((20),2));
+            setPreferredSize(new Dimension(400, 35));
+            setMargin(new Insets(0,15,0,5));
+            
+            setForeground(skin.wc2);
+            setBorder(BorderFactory.createEmptyBorder(0,5,0,5));
+            bg = skin.trc1;
+            ln = skin.trc1;
+            hoverC = skin.wc5;
+            activeC = skin.wc4;
+            errorC = skin.rc5;
+            emptyC = skin.wc42;
+            setBackground(bg);
+            vldInput = false;
+            
 
+        
+    }
 
     private Boolean vldInput;
     private Boolean Required = false;
