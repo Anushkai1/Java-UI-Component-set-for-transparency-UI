@@ -75,5 +75,91 @@ public class ComboboxWithAnmation<E> extends JComboBox<E> {
         });
     }
 
+    private class ComboUI extends BasicComboBoxUI {
 
+        private boolean animateHinText = true;
+        private float location;
+        private boolean show;
+        private ComboboxWithAnmation combo;
+
+        public ComboUI(ComboboxWithAnmation combo) {
+            this.combo = combo;
+            addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseEntered(MouseEvent me) {
+                    mouseOver = true;
+                    repaint();
+                }
+
+                @Override
+                public void mouseExited(MouseEvent me) {
+                    mouseOver = false;
+                    repaint();
+                }
+            });
+            addFocusListener(new FocusAdapter() {
+                @Override
+                public void focusGained(FocusEvent fe) {
+                    showing(false);
+                }
+
+                @Override
+                public void focusLost(FocusEvent fe) {
+                    showing(true);
+                }
+            });
+            addItemListener(new ItemListener() {
+                @Override
+                public void itemStateChanged(ItemEvent ie) {
+                    if (!isFocusOwner()) {
+                        if (getSelectedIndex() == -1) {
+                            showing(true);
+                        } else {
+                            showing(false);
+                        }
+                    }
+                }
+            });
+            addPopupMenuListener(new PopupMenuListener() {
+                @Override
+                public void popupMenuWillBecomeVisible(PopupMenuEvent pme) {
+                    arrowButton.setBackground(skin.wc3); 
+                }
+                @Override
+                public void popupMenuWillBecomeInvisible(PopupMenuEvent pme) {
+                    arrowButton.setBackground(skin.bc4);
+                }
+                @Override
+                public void popupMenuCanceled(PopupMenuEvent pme) {
+                    arrowButton.setBackground(skin.bc3);
+                    
+                }
+            });
+            /*
+            TimingTarget target = new TimingTargetAdapter() {
+                @Override
+                public void begin() {
+                    animateHinText = getSelectedIndex() == -1;
+                }
+
+                @Override
+                public void timingEvent(float fraction) {
+                    location = fraction;
+                    repaint();
+                }
+
+            };
+            animator = new Animator(300, target);
+            animator.setResolution(0);
+            animator.setAcceleration(0.5f);
+            animator.setDeceleration(0.5f);*/
+        }
+
+
+
+
+
+
+
+    }
 }
