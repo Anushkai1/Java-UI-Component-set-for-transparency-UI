@@ -252,6 +252,15 @@ public class ComboboxWithAnmation<E> extends JComboBox<E> {
             animator.start();*/
         }
 
+        private class ArrowButton extends JButton {
 
+            public ArrowButton() {
+                setContentAreaFilled(false);
+                setBorder(new EmptyBorder(0, 5,0, 5));
+                setBackground(skin.bc4);
+            }
+
+
+        }
     }
 }
