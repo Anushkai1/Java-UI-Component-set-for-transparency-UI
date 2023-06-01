@@ -238,7 +238,19 @@ public class ComboboxWithAnmation<E> extends JComboBox<E> {
             }
         }
 
-
+        private void showing(boolean action) {
+            if(action){
+            labeText = "";}
+            /*if (animator.isRunning()) {
+                animator.stop();
+            } else {
+                location = 1;
+            }
+            animator.setStartFraction(1f - location);
+            show = action;
+            location = 1f - location;
+            animator.start();*/
+        }
 
 
     }
