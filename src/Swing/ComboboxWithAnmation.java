@@ -260,7 +260,22 @@ public class ComboboxWithAnmation<E> extends JComboBox<E> {
                 setBackground(skin.bc4);
             }
 
-
+            @Override
+            public void paint(Graphics grphcs) {
+                super.paint(grphcs);
+                Graphics2D g2 = (Graphics2D) grphcs;
+                g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+                int width = getWidth();
+                int height = getHeight();
+                int size = 10;
+                int x = (width - size) / 2;
+                int y = (height - size) / 2 + 5;
+                int px[] = {x, x + size, x + size / 2};
+                int py[] = {y, y, y + size};
+                g2.setColor(getBackground());
+                g2.fillPolygon(px, py, px.length);
+                g2.dispose();
+            }
         }
     }
 }
