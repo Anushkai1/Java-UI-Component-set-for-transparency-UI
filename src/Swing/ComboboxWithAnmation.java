@@ -54,7 +54,26 @@ public class ComboboxWithAnmation<E> extends JComboBox<E> {
     private Color lineColor = skin.wc3;
     private boolean mouseOver;
 
-
+    public ComboboxWithAnmation() {
+        UIManager.put("ComboBox.background", new ColorUIResource(skin.bc1));
+        UIManager.put("ComboBox.selectionBackground", new ColorUIResource(skin.bc3));
+        UIManager.put("ComboBox.selectionForeground", new ColorUIResource(skin.bc4));
+        setBackground(skin.rc1);
+        setPreferredSize(new Dimension(150,35));
+        setBorder(new EmptyBorder(5, 3, 5, 3));
+        setUI(new ComboUI(this));
+        setRenderer(new DefaultListCellRenderer() {
+            @Override
+            public Component getListCellRendererComponent(JList<?> jlist, Object o, int i, boolean bln, boolean bln1) {
+                Component com = super.getListCellRendererComponent(jlist, o, i, bln, bln1);
+                setBorder(new EmptyBorder(5, 5, 5, 5));
+                if (bln) {
+                    com.setBackground(skin.wc4);//mouseover Item Bg
+                }
+                return com;
+            }
+        });
+    }
 
 
 }
