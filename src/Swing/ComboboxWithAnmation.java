@@ -155,6 +155,16 @@ public class ComboboxWithAnmation<E> extends JComboBox<E> {
             animator.setDeceleration(0.5f);*/
         }
 
+        @Override
+        public void paintCurrentValueBackground(Graphics grphcs, Rectangle rctngl, boolean bln) {
+
+        }
+        @Override
+        protected JButton createArrowButton() {
+            return new ArrowButton();
+        }
+
+
 
 
 
