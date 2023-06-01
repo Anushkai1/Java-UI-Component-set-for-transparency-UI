@@ -222,7 +222,21 @@ public class ComboboxWithAnmation<E> extends JComboBox<E> {
             g2.drawString(combo.getLabeText(), in.right, (int) (in.top + textY + ft.getAscent() - size));
         }
 
-
+        private void createLineStyle(Graphics2D g2) {
+            if (isFocusOwner()) {
+                double width = getWidth() - 4;
+                int height = getHeight();
+                g2.setColor(lineColor);
+                double size;
+                if (show) {
+                    size = width * (1 - location);
+                } else {
+                    size = width * location;
+                }
+                double x = (width - size) / 2;
+                g2.fillRect((int) (x + 2), height - 2, (int) size, 2);
+            }
+        }
 
 
 
