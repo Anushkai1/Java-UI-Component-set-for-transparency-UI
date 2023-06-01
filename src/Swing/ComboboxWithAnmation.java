@@ -38,7 +38,18 @@ import java.awt.Dimension;
 
 public class ComboboxWithAnmation<E> extends JComboBox<E> {
 
-
+    public String getLabeText() {
+        return labeText;
+    }
+    public void setLabeText(String labeText) {
+        this.labeText = labeText;
+    }
+    public Color getLineColor() {
+        return lineColor;
+    }
+    public void setLineColor(Color lineColor) {
+        this.lineColor = lineColor;
+    }
     private String labeText = "SELECT";
     private Color lineColor = skin.wc3;
     private boolean mouseOver;
