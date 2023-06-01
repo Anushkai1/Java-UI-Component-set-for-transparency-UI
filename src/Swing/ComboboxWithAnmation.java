@@ -35,3 +35,15 @@ import javax.swing.plaf.basic.ComboPopup;
 
 import Elements.ScrollBarCustome;
 import java.awt.Dimension;
+
+public class ComboboxWithAnmation<E> extends JComboBox<E> {
+
+
+    private String labeText = "SELECT";
+    private Color lineColor = skin.wc3;
+    private boolean mouseOver;
+
+
+
+
+}
