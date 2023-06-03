@@ -330,7 +330,13 @@
         </Constraint>
       </Constraints>
     </Component>
-
+    <Component class="Swing.TxFContwith" name="txFContwith2">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="40" y="370" width="-1" height="190"/>
+        </Constraint>
+      </Constraints>
+    </Component>
 
 
 
