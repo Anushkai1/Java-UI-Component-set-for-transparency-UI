@@ -227,6 +227,20 @@
           <AbsoluteConstraints x="40" y="190" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
+    </Component>
+    <Component class="Swing.TxFCont1_" name="txFCont1_5">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="40" y="280" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="Swing.TxFCont1_" name="txFCont1_2">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="630" y="100" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
 
 
 
