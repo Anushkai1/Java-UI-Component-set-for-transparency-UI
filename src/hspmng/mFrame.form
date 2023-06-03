@@ -144,7 +144,26 @@
         </Constraint>
       </Constraints>
     </Component>
- 
+    <Component class="Swing.hBtn" name="hBAdmit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADMIT"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="325" y="1" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="Swing.hBtn" name="hBDisc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DISCHARGE "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="435" y="1" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
 
 
 
