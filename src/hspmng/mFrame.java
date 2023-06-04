@@ -157,7 +157,24 @@ public class mFrame extends javax.swing.JFrame {
         jScrollPane3.setBorder(null);
         jScrollPane3.setOpaque(false);
 
+        txArea2.setColumns(20);
+        txArea2.setRows(5);
+        txArea2.setText("The workaround sets the color for the focus on all the common controls that it's not supposed to occur to transparent. I went and tested extensively with Windows Forms in Visual Studio. Toolbar buttons and ToggleButtons should never have the dotted border even when focused. Toolbars are supposed to be setFocusable(false); by default as they are in Windows. Every other control should have the dotted border as in Swing, but only when being focus cycled.\n");
+        jScrollPane3.setViewportView(txArea2);
 
+        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 530, -1));
+        getContentPane().add(txFContwith1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 370, -1, 80));
+        getContentPane().add(txFContwith2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, 190));
+
+        fmTitle1.setText("   REGISTER PERSON");
+        getContentPane().add(fmTitle1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
+
+        txFld11.setText("txFld11");
+        txFld11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txFld11ActionPerformed(evt);
+            }
+        });
   
     }// </editor-fold>//GEN-END:initComponents
 
