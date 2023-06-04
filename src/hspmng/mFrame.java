@@ -24,6 +24,41 @@ public class mFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        btn4_1 = new Swing.Btn4_();
+        btn3_1 = new Swing.Btn3_();
+        btn1_1 = new Swing.Btn1_();
+        btn2_2 = new Swing.Btn2_();
+        wCloseBtn = new Elements.WCloseBtn();
+        wMover = new Elements.WMover();
+        SettingBtn = new Swing.iBtn();
+        MinimizeBtn = new Swing.iBtn();
+        hBDash = new Swing.hBtn();
+        Hbpers = new Swing.hBtn();
+        hBAdmit = new Swing.hBtn();
+        hBDisc = new Swing.hBtn();
+        hBbirth = new Swing.hBtn();
+        hBDeath = new Swing.hBtn();
+        hBSur = new Swing.hBtn();
+        hBDoc = new Swing.hBtn();
+        hBWard = new Swing.hBtn();
+        txFCont1_1 = new Swing.TxFCont1_();
+        txFCont1_3 = new Swing.TxFCont1_();
+        txFCont1_5 = new Swing.TxFCont1_();
+        txFCont1_2 = new Swing.TxFCont1_();
+        txFCont1_4 = new Swing.TxFCont1_();
+        txFCont1_6 = new Swing.TxFCont1_();
+        combobox1 = new Swing.Combobox();
+        combobox2 = new Swing.Combobox();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        txArea2 = new Swing.txArea();
+        txFContwith1 = new Swing.TxFContwith();
+        txFContwith2 = new Swing.TxFContwith();
+        fmTitle1 = new Swing.fmTitle();
+        txFld11 = new Swing.TxFld1();
+        fmBg1 = new Swing.fmBg();
+        bg_label = new javax.swing.JLabel();
+        btn4_2 = new Swing.Btn4_();
+        btn4_3 = new Swing.Btn4_();
 
 
 
