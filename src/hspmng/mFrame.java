@@ -137,7 +137,25 @@ public class mFrame extends javax.swing.JFrame {
         getContentPane().add(hBDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(875, 1, -1, -1));
 
         hBWard.setText("WARD");
+        getContentPane().add(hBWard, new org.netbeans.lib.awtextra.AbsoluteConstraints(985, 1, -1, -1));
+        getContentPane().add(txFCont1_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, -1));
+        getContentPane().add(txFCont1_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
+        getContentPane().add(txFCont1_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
+        getContentPane().add(txFCont1_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 100, -1, -1));
+        getContentPane().add(txFCont1_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 190, -1, -1));
+        getContentPane().add(txFCont1_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 280, -1, -1));
 
+        combobox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "PHP", "HTML", "JS", "Java" }));
+        combobox1.setMinimumSize(new java.awt.Dimension(90, 0));
+        getContentPane().add(combobox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 430, 180, 40));
+
+        combobox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Female", "Male", "Dash" }));
+        combobox2.setSelectedIndex(-1);
+        getContentPane().add(combobox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 430, -1, -1));
+
+        jScrollPane3.setBackground(skin.trc1);
+        jScrollPane3.setBorder(null);
+        jScrollPane3.setOpaque(false);
 
 
   
