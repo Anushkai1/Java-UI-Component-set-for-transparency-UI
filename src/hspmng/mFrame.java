@@ -175,7 +175,22 @@ public class mFrame extends javax.swing.JFrame {
                 txFld11ActionPerformed(evt);
             }
         });
-  
+        getContentPane().add(txFld11, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 560, -1, -1));
+        getContentPane().add(fmBg1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+
+        bg_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bg.png"))); // NOI18N
+        bg_label.setText("jLabel1");
+        bg_label.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 145, 196)));
+        getContentPane().add(bg_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 700));
+
+        btn4_2.setText("btn4_2");
+        getContentPane().add(btn4_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 250, -1, -1));
+
+        btn4_3.setText("btn4_3");
+        getContentPane().add(btn4_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 600, -1, -1));
+
+        pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
 
