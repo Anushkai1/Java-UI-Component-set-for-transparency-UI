@@ -9,7 +9,16 @@ import Assest.skin;
 
 public class mFrame extends javax.swing.JFrame {
 
+    public mFrame() {
+        initComponents();
+        setBackground(new Color(0, 0, 0, 0));
+        wMover. initMoving(this);
 
+        jScrollPane3.setVerticalScrollBar(new ScrollBarCustome());
+        ScrollBarCustome sp = new ScrollBarCustome();
+        sp.setOrientation(JScrollBar.VERTICAL);
+        jScrollPane3.setHorizontalScrollBar(sp);
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
