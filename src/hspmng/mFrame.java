@@ -60,6 +60,28 @@ public class mFrame extends javax.swing.JFrame {
         btn4_2 = new Swing.Btn4_();
         btn4_3 = new Swing.Btn4_();
 
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btn4_1.setText("DESDFSFA");
+        getContentPane().add(btn4_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 640, -1, -1));
+
+        btn3_1.setText("DASHBOARD");
+        getContentPane().add(btn3_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 640, -1, -1));
+
+        btn1_1.setText("LOGIN");
+        getContentPane().add(btn1_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 640, -1, -1));
+
+        btn2_2.setText("FSSGDFG DGDFG");
+        btn2_2.setDoubleBuffered(true);
+        getContentPane().add(btn2_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 640, -1, -1));
+
+        wCloseBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                wCloseBtnMousePressed(evt);
+            }
+        });
 
 
   
