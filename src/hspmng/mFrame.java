@@ -98,6 +98,25 @@ public class mFrame extends javax.swing.JFrame {
                 MinimizeBtnActionPerformed(evt);
             }
         });
+        getContentPane().add(MinimizeBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1095, 1, -1, -1));
+
+        hBDash.setText("DASHBOARD ");
+        hBDash.setRolloverEnabled(false);
+        hBDash.setVerifyInputWhenFocusTarget(false);
+        hBDash.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hBDashActionPerformed(evt);
+            }
+        });
+        getContentPane().add(hBDash, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 1, -1, -1));
+
+        Hbpers.setText("PERSON");
+        Hbpers.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HbpersActionPerformed(evt);
+            }
+        });
+
 
 
   
