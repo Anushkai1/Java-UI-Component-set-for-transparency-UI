@@ -186,7 +186,14 @@
         </Constraint>
       </Constraints>
 
-
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="hspmng.NewJPanel" name="newJPanel2">
+          <Properties>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
     </Container>
 
   </SubComponents>
