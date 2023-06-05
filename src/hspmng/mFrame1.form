@@ -133,6 +133,16 @@
         </Constraint>
       </Constraints>
     </Component>
+    <Component class="Swing.hBtn" name="hBDeath">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DEATH"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="655" y="1" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
 
 
 
