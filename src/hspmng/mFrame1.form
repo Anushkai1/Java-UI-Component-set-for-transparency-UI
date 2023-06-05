@@ -75,6 +75,22 @@
         </Constraint>
       </Constraints>
     </Component>
+    <Component class="Swing.hBtn" name="hBDash">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DASHBOARD "/>
+        <Property name="rolloverEnabled" type="boolean" value="false"/>
+        <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hBDashActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="105" y="1" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+
 
 
 
