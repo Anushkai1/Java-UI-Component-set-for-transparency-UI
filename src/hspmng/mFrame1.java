@@ -133,7 +133,20 @@ public class mFrame1 extends javax.swing.JFrame {
     private void HbpersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HbpersActionPerformed
         header_btn_sel(1);
     }//GEN-LAST:event_HbpersActionPerformed
+     private  void header_btn_sel(int x){
+            hBtn[] hbl = {hBDash, Hbpers, hBAdmit, hBDisc, hBbirth, hBDeath, hBSur, hBDoc,hBWard, }; //
 
+            Color bg = hbl[0].getBg();
+            Color fg = hbl[0].getFg();
+            
+           for(int b = 0; b < 9; b++){
+                if(x!=b){
+                hbl[b].setBackground(bg);
+                hbl[b].setForeground(fg);
+                hbl[b].setOver(false);
+                }
+            }
+        }
 
 
 
