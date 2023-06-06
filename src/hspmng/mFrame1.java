@@ -9,6 +9,16 @@ import Assest.skin;
 
 public class mFrame1 extends javax.swing.JFrame {
 
+    public mFrame1() {
+        initComponents();
+        setBackground(new Color(0, 0, 0, 0));
+        wMover. initMoving(this);
+
+       //jScrollPane1.setVerticalScrollBar(new ScrollBarCustome());
+    }
+
+
+
 
 
 
