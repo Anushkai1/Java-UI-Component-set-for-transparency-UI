@@ -17,6 +17,14 @@ public class mFrame1 extends javax.swing.JFrame {
        //jScrollPane1.setVerticalScrollBar(new ScrollBarCustome());
     }
 
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+
+        
+    }// </editor-fold>//GEN-END:initComponents
+
 
 
 
