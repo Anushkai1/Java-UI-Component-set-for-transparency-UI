@@ -122,6 +122,17 @@ public class mFrame1 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
 
+    private void MinimizeBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MinimizeBtnActionPerformed
+        setState(mFrame1.ICONIFIED);
+    }//GEN-LAST:event_MinimizeBtnActionPerformed
+
+    private void hBDashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hBDashActionPerformed
+         header_btn_sel(0);
+    }//GEN-LAST:event_hBDashActionPerformed
+
+    private void HbpersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HbpersActionPerformed
+        header_btn_sel(1);
+    }//GEN-LAST:event_HbpersActionPerformed
 
 
 
