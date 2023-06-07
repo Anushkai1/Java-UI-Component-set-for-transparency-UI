@@ -24,7 +24,20 @@ public class NewJPanel extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
 
+        fmTitle1 = new Swing.fmTitle();
+        fmBg1 = new Swing.fmBg();
+
+        setPreferredSize(new java.awt.Dimension(1160, 900));
+
+        fmTitle1.setText("fmTitle1");
+
+        fmBg1.setBackground(new java.awt.Color(51, 51, 51));
+        fmBg1.setText("fmBg1");
+
+
+    }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
