@@ -41,5 +41,12 @@
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Component class="Swing.fmTitle" name="fmTitle1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fmTitle1"/>
+      </Properties>
+    </Component>
 
+  </SubComponents>
 </Form>
