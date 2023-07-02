@@ -183,6 +183,25 @@
         </Constraint>
       </Constraints>
     </Component>
+    <Component class="Swing.TxFld1" name="txFld13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="txFld13"/>
+        <Property name="maxLength" type="int" value="9"/>
+        <Property name="required" type="java.lang.Boolean" value="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="aaaaaaa"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txFld13ActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txFld13KeyReleased"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="60" y="140" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
 
 
   </SubComponents>
