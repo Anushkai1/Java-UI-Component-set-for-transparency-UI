@@ -176,6 +176,20 @@ public class regexcech extends javax.swing.JFrame {
     private void txFld11KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txFld11KeyReleased
         Assest.Regex.rxPhone(evt);
     }//GEN-LAST:event_txFld11KeyReleased
+     private  void header_btn_sel(int x){
+            hBtn[] hbl = {hBDash, Hbpers, hBAdmit, hBDisc, hBbirth, hBDeath, hBSur, hBDoc,hBWard, }; //
+
+            Color bg = hbl[0].getBg();
+            Color fg = hbl[0].getFg();
+            
+           for(int b = 0; b < 9; b++){
+                if(x!=b){
+                hbl[b].setBackground(bg);
+                hbl[b].setForeground(fg);
+                hbl[b].setOver(false);
+                }
+            }
+        }
 
 
 
