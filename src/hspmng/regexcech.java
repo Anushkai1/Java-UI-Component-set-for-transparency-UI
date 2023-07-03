@@ -153,6 +153,31 @@ public class regexcech extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
 
+    private void MinimizeBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MinimizeBtnActionPerformed
+        setState(regexcech.ICONIFIED);
+    }//GEN-LAST:event_MinimizeBtnActionPerformed
+
+    private void hBDashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hBDashActionPerformed
+         header_btn_sel(0);
+    }//GEN-LAST:event_hBDashActionPerformed
+
+    private void HbpersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HbpersActionPerformed
+        header_btn_sel(1);
+    }//GEN-LAST:event_HbpersActionPerformed
+
+    private void txFld13KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txFld13KeyReleased
+        Assest.Regex.rxPhone(evt);
+    }//GEN-LAST:event_txFld13KeyReleased
+
+    private void txFld13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txFld13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txFld13ActionPerformed
+
+    private void txFld11KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txFld11KeyReleased
+        Assest.Regex.rxPhone(evt);
+    }//GEN-LAST:event_txFld11KeyReleased
+
+
 
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
