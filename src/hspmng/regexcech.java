@@ -9,6 +9,19 @@ import Assest.skin;
 
 public class regexcech extends javax.swing.JFrame {
 
+    public regexcech() {
+        initComponents();
+        setBackground(new Color(0, 0, 0, 0));
+        wMover. initMoving(this);
+        Swing.TxFld1[] xy = {txFld13,txFld11};
+
+       subBtn2.setTxtList(xy);
+       txFld13.setSb1(subBtn2);
+       txFld11.setSb1(subBtn2);
+       combobox1.setSb1(subBtn2);
+       
+    }
+
 
 
 
