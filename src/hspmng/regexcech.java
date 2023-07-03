@@ -80,6 +80,18 @@ public class regexcech extends javax.swing.JFrame {
                 hBDashActionPerformed(evt);
             }
         });
+        getContentPane().add(hBDash, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 1, -1, -1));
+
+        Hbpers.setText("PERSON");
+        Hbpers.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HbpersActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Hbpers, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 1, -1, -1));
+
+
+
 
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
