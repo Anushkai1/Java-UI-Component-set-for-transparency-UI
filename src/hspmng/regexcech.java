@@ -114,6 +114,14 @@ public class regexcech extends javax.swing.JFrame {
         subBtn2.setText("subBtn2");
         getContentPane().add(subBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
 
+        txFld13.setText("txFld13");
+        txFld13.setMaxLength(9);
+        txFld13.setRequired(java.lang.Boolean.TRUE);
+        txFld13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txFld13ActionPerformed(evt);
+            }
+        });
 
 
 
