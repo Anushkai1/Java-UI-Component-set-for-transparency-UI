@@ -54,6 +54,22 @@ public class regexcech extends javax.swing.JFrame {
                 wCloseBtnMousePressed(evt);
             }
         });
+        getContentPane().add(wCloseBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1147, 1, -1, -1));
+
+        wMover.setFocusable(false);
+        wMover.setVerifyInputWhenFocusTarget(false);
+        getContentPane().add(wMover, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 1, -1, -1));
+
+        SettingBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/setting.png"))); // NOI18N
+        SettingBtn.setEnabled(false);
+        getContentPane().add(SettingBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 1, -1, -1));
+
+        MinimizeBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/minimize.png"))); // NOI18N
+        MinimizeBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MinimizeBtnActionPerformed(evt);
+            }
+        });
 
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
