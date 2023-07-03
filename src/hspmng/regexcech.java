@@ -122,7 +122,35 @@ public class regexcech extends javax.swing.JFrame {
                 txFld13ActionPerformed(evt);
             }
         });
+        txFld13.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txFld13KeyReleased(evt);
+            }
+        });
+        getContentPane().add(txFld13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, -1, -1));
+        txFld13.getAccessibleContext().setAccessibleName("aaaaaaa");
 
+        txFld11.setText("txFld11");
+        txFld11.setMaxLength(9);
+        txFld11.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txFld11KeyReleased(evt);
+            }
+        });
+        getContentPane().add(txFld11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, -1, -1));
+
+        combobox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "A", "A", "A", "A", "B", "Q", "W", "E", "R", "T", "Y", "U", "I" }));
+        combobox1.setSelectedIndex(-1);
+        getContentPane().add(combobox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 90, -1, -1));
+
+        bg_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bg.png"))); // NOI18N
+        bg_label.setText("jLabel1");
+        bg_label.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 145, 196)));
+        getContentPane().add(bg_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 700));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>//GEN-END:initComponents
 
 
 
