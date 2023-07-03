@@ -90,6 +90,31 @@ public class regexcech extends javax.swing.JFrame {
         });
         getContentPane().add(Hbpers, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 1, -1, -1));
 
+        hBAdmit.setText("ADMIT");
+        getContentPane().add(hBAdmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 1, -1, -1));
+
+        hBDisc.setText("DISCHARGE ");
+        getContentPane().add(hBDisc, new org.netbeans.lib.awtextra.AbsoluteConstraints(435, 1, -1, -1));
+
+        hBbirth.setText("BIRTH");
+        getContentPane().add(hBbirth, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 1, -1, -1));
+
+        hBDeath.setText("DEATH");
+        getContentPane().add(hBDeath, new org.netbeans.lib.awtextra.AbsoluteConstraints(655, 1, -1, -1));
+
+        hBSur.setText("SURGERY");
+        getContentPane().add(hBSur, new org.netbeans.lib.awtextra.AbsoluteConstraints(765, 1, -1, -1));
+
+        hBDoc.setText("DOC");
+        getContentPane().add(hBDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(875, 1, -1, -1));
+
+        hBWard.setText("WARD");
+        getContentPane().add(hBWard, new org.netbeans.lib.awtextra.AbsoluteConstraints(985, 1, -1, -1));
+
+        subBtn2.setText("subBtn2");
+        getContentPane().add(subBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
+
+
 
 
 
