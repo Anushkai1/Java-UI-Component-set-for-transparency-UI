@@ -45,6 +45,16 @@ public class regexcech extends javax.swing.JFrame {
         combobox1 = new Swing.Combobox();
         bg_label = new javax.swing.JLabel();
 
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        wCloseBtn.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                wCloseBtnMousePressed(evt);
+            }
+        });
+
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private Swing.hBtn Hbpers;
