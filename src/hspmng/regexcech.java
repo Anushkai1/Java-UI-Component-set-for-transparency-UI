@@ -26,7 +26,24 @@ public class regexcech extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-
+        wCloseBtn = new Elements.WCloseBtn();
+        wMover = new Elements.WMover();
+        SettingBtn = new Swing.iBtn();
+        MinimizeBtn = new Swing.iBtn();
+        hBDash = new Swing.hBtn();
+        Hbpers = new Swing.hBtn();
+        hBAdmit = new Swing.hBtn();
+        hBDisc = new Swing.hBtn();
+        hBbirth = new Swing.hBtn();
+        hBDeath = new Swing.hBtn();
+        hBSur = new Swing.hBtn();
+        hBDoc = new Swing.hBtn();
+        hBWard = new Swing.hBtn();
+        subBtn2 = new Swing.subBtn();
+        txFld13 = new Swing.TxFld1();
+        txFld11 = new Swing.TxFld1();
+        combobox1 = new Swing.Combobox();
+        bg_label = new javax.swing.JLabel();
 
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
